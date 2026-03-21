@@ -1,0 +1,12 @@
+---
+- name: Configure VLANs
+  hosts: switches
+  gather_facts: no
+
+  tasks:
+    - name: Debug VLANs
+      debug:
+        var: vlans
+
+  roles:
+    - vlan_config

@@ -1,0 +1,6 @@
+---
+vlans:
+  - id: 10
+    name: business
+  - id: 20
+    name: internet
