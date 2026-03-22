@@ -1,2 +1,7 @@
 ---
 # defaults file for roles/vlan_config
+vlans:
+  - id: 30
+    name: testdefault1
+  - id: 40
+    name: testdefault2
