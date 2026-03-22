@@ -1,2 +1,5 @@
 ---
 # handlers file for roles/vlan_config
+- name: Save Config Handler
+  ios_config:
+    save_when: always
