@@ -6,3 +6,4 @@
     lines:
       - "name {{ item.name }}"
   loop: "{{ vlans }}"
+  notify: save 
