@@ -1,6 +1,6 @@
 ---
 # handlers file for roles/vlan_config
 - name: save
-  ios_config:
-    command: write memory
+  ios_command:
+    commands: write memory
       
