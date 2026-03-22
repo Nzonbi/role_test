@@ -1,7 +1,3 @@
 ---
 # vars file for roles/vlan_config
-vlans:
-  - id: 10
-    name: business
-  - id: 20
-    name: internet
+
